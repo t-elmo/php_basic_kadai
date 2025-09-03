@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <title>テストの平均点を計算しよう</title>
 </head>
 
@@ -20,11 +20,14 @@
     $score9 = 30;
     $score10 = 60;
 
-    $total_score = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
+    // 合計点
+    $total = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
 
-    $average_score = $total_score / 10;
+    // 平均点
+    $average = $total / 10;
 
-    echo $average_score;
+    // 平均点を出力
+    echo $average;
     ?>
   </p>
 </body>
